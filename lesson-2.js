@@ -1,3 +1,6 @@
+/**
+ * Lesson 2: Refactor imperative code to a single composed expression using Box
+ */
 const Box = x =>
 ({
     map: f => Box(f(x)),

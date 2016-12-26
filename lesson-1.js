@@ -1,3 +1,6 @@
+/**
+ * Lesson 1: Create linear data flow with container style types (Box)
+ */
 const nextChartForNumberStringV1 = str => {
     const trimmed = str.trim();
     const number = parseInt(trimmed);
