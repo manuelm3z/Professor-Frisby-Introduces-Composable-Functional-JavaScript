@@ -1,3 +1,6 @@
+/**
+ * Lesson 4: Use chain for composable error handling with nested Eithers
+ */
 const RightV1 = x =>
 ({
     map: f => Right(f(x)),
